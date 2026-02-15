@@ -1,0 +1,19 @@
+# Configuration for Data Collection and Storage Module
+
+# Google Analytics API Configuration
+GA_API_KEY: "your_google_analytics_api_key"
+GA_ENDPOINT: "https://www.googleapis.com/analytics/v3/data/ga"
+
+# BigQuery Configuration
+GCP_PROJECT: "your_gcp_project_id"
+GCP_CREDENTIALS:
+    type: "service_account"
+    project_id: "your_gcp_project_id"
+    private_key: "your_private_key"
+    client_email: "service-account@your-project.iam.gserviceaccount.com"
+
+DATASET: "affiliate_marketing"
+
+# ETL Configuration
+START_DATE: "2023-01-01"
+END_DATE: "2023-12-31"
